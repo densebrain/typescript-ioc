@@ -4,7 +4,7 @@
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
         "lib": [
-            "es6", 
+            "esnext", 
             "dom"
         ],
         "module": "commonjs",
@@ -18,9 +18,10 @@
         "removeComments": true,
         "sourceMap": true,
         "strictNullChecks": false,
-        "target": "es5"
+        "target": "es2018",
+        "outDir": "./lib"
     },
     "include": [
-        "src/typescript-ioc.ts", "src/container-config.ts"
+        "src/typescript-ioc.ts", "src/container-config.ts", "src/index.ts"
     ]
 }

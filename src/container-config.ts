@@ -1,4 +1,3 @@
-'use strict';
 
 export class ContainerConfig {
     public static addSource(patterns: string | Array<string>, baseDir?: string) {
